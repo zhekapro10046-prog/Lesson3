@@ -9,8 +9,8 @@
 // 6. Загрузить этот код на ваш GitHub.
 // 7. Отправьте мне ссылку на ваш GitHub в лс @Gygi4.
 
-const files = [ "1111", "5678", "1234", "9999"];
-const myPin = "1234";
+const files = [ "1111", "5678", "1234", "9999"]; 
+let myPin = "1234";
 for (const file of files) 
     if (file === myPin) { 
         console.log("Пин-код найден!");
